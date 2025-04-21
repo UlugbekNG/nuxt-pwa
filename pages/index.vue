@@ -5,7 +5,7 @@
 <template>
   <div class="flex flex-col">
     <p class="text-2xl font-bold text-gray-700">
-      NUXT PWA | SCANINFO MENU
+      SCANINFO MENU
     </p>
     <p class="text-gray-500">
       This is a simple example of a Nuxt 3 PWA application.
