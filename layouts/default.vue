@@ -3,9 +3,9 @@
 </script>
 
 <template>
+  <ClientOnly>
   <main class="container max-w-3xl mx-auto p-3">
     <slot />
-    <ClientOnly>
       <div
           v-if="$pwa?.offlineReady || $pwa?.needRefresh"
           class="pwa-toast"
@@ -47,8 +47,9 @@
           Cancel
         </button>
       </div>
-    </ClientOnly>
   </main>
+  </ClientOnly>
+
 </template>
 
 <style>
